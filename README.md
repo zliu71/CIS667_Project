@@ -2,7 +2,7 @@
 In milestone 2, I have two brand new files called 2x2x2new.py and 3x3x3new.py, those are the new projects I build for the milestone 2.
 Each of these files have a step to step toturial that you can just run the file and following the build in instruction.
 Here is the step to step instruction:
-1. The only library I used is "numpy", you probably need to install the numply library in your environment before you run it.
+1. There are two libraries I used are "numpy" and "itertools", you probably need to install those libraies in your environment before you run it.
 2. To make sure everything is working properly, please using Python 3 to run the code(even it might be work in other versions, who knows).
 3. Rules in "2x2x2new.py" and "3x3x3new.py" are identical, you can following the same toturial in both files.
 Here is the toturial about how to run the code:
