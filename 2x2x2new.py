@@ -1,6 +1,4 @@
 import numpy as np
-import itertools as it
-import matplotlib.pyplot as pt
 
 #colors
 N, R, G, B ,W, Y, O = range(7)
