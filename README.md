@@ -12,7 +12,8 @@ Here is the toturial about how to run the code:
 4. Wait until you see the result pop out, it depends on how you scramble, max depth, threshold, and your CPU speed.
 5. Input the "max_steps" which is the maximun step for random_process() to find the result.
 
-~~In current state, there are two different games in this folder called 2x2x2rubiks.py and 3x3x3rubiks.py.
+~~Milestone 1
+In current state, there are two different games in this folder called 2x2x2rubiks.py and 3x3x3rubiks.py.
 2x2x2rubkis.py is the workling platform I'm working on it, 3x3x3rubiks.py I still have multiple questions waiting to be answered.
 In 2x2x2rubiks.py, there is only one library I have imported which is numpy, you need makesure there is a numpy library in your enviroment.
 There is a specific step to play 2x2x2rubiks.py:
