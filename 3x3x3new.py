@@ -1,5 +1,5 @@
 import numpy as np
-
+import itertools as it
 #colors
 N, R, G, B ,W, Y, O = range(7)
 
@@ -55,7 +55,7 @@ def cubie_match(state):
             rtvalue.append((i,j,k))
     #print (match)
     return rtvalue, match
-#A* is a bfs search for searching heuristic 
+#A* is a search picking heuristic 
 def A_star_solve(state, threshold, step): 
     cubies, match = cubie_match(state)
     score = 0
@@ -71,19 +71,17 @@ def A_star_solve(state, threshold, step):
         path = h[idx, 4]
         print ("Match is")
         print (match)
+        print ("Path is")
+        print (path)
         print ("Score is")
         print (score)
-        
-        if(match == 27):
-            print ("Path is")
-            print (path)
-            print ("Score is")
-            print (score)
-            print ("Current state")
-            print (state.cube)
+        print ("Current state")
+        print (state.cube)
+        if(match == 8):
             return True
+        hold = input("press enter to continue")
+    print("Cannot find a solve in current state")
     return False
-
 
 
 #dfs in n steps to find the heuristic and the score
