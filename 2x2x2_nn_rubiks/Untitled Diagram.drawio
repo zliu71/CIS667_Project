@@ -1,1 +1,570 @@
-<mxfile host="app.diagrams.net" modified="2020-12-09T22:46:19.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.0.0" etag="43nTOCPyE_Whs-oHS60z" type="github"><diagram id="awq53C3oHSD2vz5_A3po">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-09T23:48:26.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="9CAuSbHKLwa_dKLAHEW7" version="14.0.0" type="github">
+  <diagram id="awq53C3oHSD2vz5_A3po" name="Page-1">
+    <mxGraphModel dx="1422" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7Sky5vFMbs233_MKBFhN-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="640" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-2" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Sky5vFMbs233_MKBFhN-3" target="7Sky5vFMbs233_MKBFhN-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="140" />
+              <mxPoint x="430" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-3" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-4" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="310" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-7" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-8" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-9" value="Fig 1 The Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="250" width="195" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-10" value="Fig 2A Ideal solution, part 1&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="560" width="207.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-11" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="30" y="380" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Sky5vFMbs233_MKBFhN-5" target="7Sky5vFMbs233_MKBFhN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-5" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-14" value="Direct short path" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-15" value="Best result in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-17" value="Heuristic start point" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="211" y="420" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-20" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="690" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-22" value="Fig 2B Ideal solution, part 2&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="316" y="890" width="217.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-23" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="710" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-25" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Sky5vFMbs233_MKBFhN-26" target="7Sky5vFMbs233_MKBFhN-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-26" value="New Node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="750" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-27" value="Heuristic New node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="533.5" y="750" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-21" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="960" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-30" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1010" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-31" value="Fig 2C Ideal solution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="303" y="1200" width="244" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-38" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1030" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-39" value="Heuristic start point" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1070" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="1100" as="sourcePoint" />
+            <mxPoint x="380" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-33" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-32" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1030" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-35" value="New Node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1070" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-36" value="Heuristic New node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="533.5" y="1070" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-37" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-35" target="7Sky5vFMbs233_MKBFhN-37" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="1280" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-42" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1330" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-43" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-44" value="Fig 3A A* Algorithm solution, part 1&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="1530" width="207.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-45" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1350" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-47" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-48" value="Best result in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1390" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-49" value="Heuristic start point" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="211" y="1390" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-50" value="Best match&amp;nbsp;in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="236" y="1430" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-52" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Sky5vFMbs233_MKBFhN-47" target="7Sky5vFMbs233_MKBFhN-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1330" as="sourcePoint" />
+            <mxPoint x="430" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="1600" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-54" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1650" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-55" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-56" value="Fig 3B A* Algorithm solution, part 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="1850" width="207.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-57" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1700" width="443.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-58" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-60" value="Heuristic new node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1810" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-61" value="New node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="236" y="1750" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-63" value="Best result in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="583.5" y="1745" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-65" value="Best match&amp;nbsp;in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1710" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-67" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Sky5vFMbs233_MKBFhN-61" target="7Sky5vFMbs233_MKBFhN-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1660" as="sourcePoint" />
+            <mxPoint x="430" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="1920" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-69" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1970" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-70" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-71" value="Fig 3C A* Algorithm solution, part 3&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="2170" width="207.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-72" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1960" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-73" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-74" value="Heuristic new node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1980" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-75" value="New node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="435" y="2030" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-76" value="Best result in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2030" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-77" value="Best match&amp;nbsp;in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="558.5" y="2090" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-78" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-75" target="7Sky5vFMbs233_MKBFhN-77" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="2081" as="sourcePoint" />
+            <mxPoint x="430" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-79" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="2240" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-80" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2290" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-81" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-82" value="Fig 3D-1 A* Algorithm solution in dead loop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="306" y="2490" width="239" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-83" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2280" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-84" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-85" value="Heuristic new node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="2300" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-86" value="Best match in&lt;br&gt;heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="435" y="2350" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-87" value="Best result in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2350" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-88" value="New node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="558.5" y="2410" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-89" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-88" target="7Sky5vFMbs233_MKBFhN-86" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="2560" as="sourcePoint" />
+            <mxPoint x="430" y="2250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-90" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="2560" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-91" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2610" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-93" value="Fig 3D-2 A* Algorithm solution, part 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="306" y="2810" width="239" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-94" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2600" width="390" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-95" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-96" value="Heuristic new node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="2620" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-99" value="New node" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="558.5" y="2730" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-100" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-99" target="7Sky5vFMbs233_MKBFhN-92" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="2880" as="sourcePoint" />
+            <mxPoint x="495" y="2700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-92" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-101" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="2880" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-102" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2910" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-104" value="Fig 3E A* Algorithm, part 5&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="3130" width="207.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-105" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2950" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-106" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-108" value="Heuristic start point" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2960" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-112" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="203.75" y="2970" width="443.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-113" value="Heuristic node 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="3080" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-109" value="Node 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="236" y="3030" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-110" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-106" target="7Sky5vFMbs233_MKBFhN-109" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="2930" as="sourcePoint" />
+            <mxPoint x="430" y="2880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-118" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="383.25" y="2920" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-124" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2920" width="390" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-122" value="Node 3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="558.5" y="3050" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-123" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-116" target="7Sky5vFMbs233_MKBFhN-122" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="468.25" y="3020" as="sourcePoint" />
+            <mxPoint x="403.25" y="2890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-103" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-116" value="Node 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="408.25" y="2980" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-117" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-109" target="7Sky5vFMbs233_MKBFhN-116" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294.25" y="3050" as="sourcePoint" />
+            <mxPoint x="428.25" y="2880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-119" value="Heuristic node 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="2950" width="36.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-125" value="Heuristic node 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="538" y="2960" width="101" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-126" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Sky5vFMbs233_MKBFhN-122" target="7Sky5vFMbs233_MKBFhN-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="2880" as="sourcePoint" />
+            <mxPoint x="430" y="2830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-127" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="3200" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-128" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="3230" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-129" value="Fig 3F A* Algorithm compare to ideal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="3450" width="207.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-131" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-135" value="Node 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="236" y="3350" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-136" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-131" target="7Sky5vFMbs233_MKBFhN-135" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="3250" as="sourcePoint" />
+            <mxPoint x="430" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-139" value="Node 3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="558.5" y="3370" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-140" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-142" target="7Sky5vFMbs233_MKBFhN-139" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="468.25" y="3340" as="sourcePoint" />
+            <mxPoint x="403.25" y="3210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-141" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="3310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-143" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-135" target="7Sky5vFMbs233_MKBFhN-142" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294.25" y="3370" as="sourcePoint" />
+            <mxPoint x="428.25" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-146" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-139" target="7Sky5vFMbs233_MKBFhN-141" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="3200" as="sourcePoint" />
+            <mxPoint x="430" y="3150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-149" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" target="7Sky5vFMbs233_MKBFhN-141">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="3340" as="sourcePoint" />
+            <mxPoint x="430" y="3370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-163" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="3520" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-164" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="3570" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-165" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="3630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-166" value="Fig 4A NN_A* solution, part 1&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="3770" width="207.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-167" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="30" y="3590" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-168" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-169" value="Best result in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="3630" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-170" value="Heuristic start point" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="211" y="3630" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-171" value="Highest Y in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="321" y="3640" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-172" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-168" target="7Sky5vFMbs233_MKBFhN-171" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="3570" as="sourcePoint" />
+            <mxPoint x="430" y="3520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-173" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="3840" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-174" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="3890" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-175" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="3950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-176" value="Fig 4B NN_A* solution, part 2&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="4090" width="207.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-177" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3910" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-178" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-179" value="Best result in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="3950" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-180" value="Heuristic node 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="381" y="3920" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-181" value="Node 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="321" y="3960" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-183" value="Highest Y in heuristic" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3960" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-184" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Sky5vFMbs233_MKBFhN-181" target="7Sky5vFMbs233_MKBFhN-183">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="3930" as="sourcePoint" />
+            <mxPoint x="430" y="3880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-185" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="4160" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-186" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="4210" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-188" value="Fig 4C NN_A* solution, part 3&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="4410" width="207.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-189" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="408.25" y="4230" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-190" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="4270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-192" value="Heuristic node 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="547" y="4240" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-195" value="Node 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="4280" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-187" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="4270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-197" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Sky5vFMbs233_MKBFhN-195" target="7Sky5vFMbs233_MKBFhN-187">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="4230" as="sourcePoint" />
+            <mxPoint x="430" y="4180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-198" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry y="4480" width="840" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-199" value="Pool of nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="4530" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-200" value="Goal&lt;br&gt;initial_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="4590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-201" value="Fig 4D NN_A* solution compare to ideal case&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295.5" y="4730" width="249" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-203" value="Start point&lt;br&gt;scramble(initial_node)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="4590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-211" value="" style="endArrow=classic;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180.5" y="4619.5" as="sourcePoint" />
+            <mxPoint x="670.5" y="4619.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-207" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="7Sky5vFMbs233_MKBFhN-203" target="7Sky5vFMbs233_MKBFhN-206" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="4530" as="sourcePoint" />
+            <mxPoint x="430" y="4480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-209" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Sky5vFMbs233_MKBFhN-206" target="7Sky5vFMbs233_MKBFhN-208">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="4550" as="sourcePoint" />
+            <mxPoint x="430" y="4500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-210" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Sky5vFMbs233_MKBFhN-208" target="7Sky5vFMbs233_MKBFhN-200">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="4860" as="sourcePoint" />
+            <mxPoint x="430" y="4810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-206" value="Node 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="321" y="4600" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-208" value="Node 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="4600" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sky5vFMbs233_MKBFhN-142" value="Node 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="408.25" y="3300" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
