@@ -49,7 +49,7 @@ if __name__ == "__main__":
                 print(node.path)
                 #node.state.disp()
                 break
-        #check if have goal in the poll of children, in-other word, check the size of heuristic, it has the goal or not 
+        #check if have goal in the pool of children, in-other word, check the size of heuristic, it has the goal or not 
         #search if there is a result in the heuristic
         ind = gr.make_choice(node)
         #check goal in last step
