@@ -1,5 +1,6 @@
 # CIS667_Project
-In milestone 2, I have two brand new files called 2x2x2new.py and 3x3x3new.py, those are the new projects I build for the milestone 2.
+
+~~In milestone 2, I have two brand new files called 2x2x2new.py and 3x3x3new.py, those are the new projects I build for the milestone 2.
 Each of these files have a step to step toturial that you can just run the file and following the build in instruction.
 Here is the step to step instruction:
 1. There are two libraries I used are "numpy" and "itertools", you probably need to install those libraies in your environment before you run it.
@@ -11,8 +12,7 @@ Here is the toturial about how to run the code:
 3. Input an integer called "threshold", which is the accuracy of the A* algorithm.
 4. Wait until you see the result pop out, it depends on how you scramble, max depth, threshold, and your CPU speed.
 5. Input the "max_steps" which is the maximun step for random_process() to find the result.
-
-~~Milestone 1
+Milestone 1
 In current state, there are two different games in this folder called 2x2x2rubiks.py and 3x3x3rubiks.py.
 2x2x2rubkis.py is the workling platform I'm working on it, 3x3x3rubiks.py I still have multiple questions waiting to be answered.
 In 2x2x2rubiks.py, there is only one library I have imported which is numpy, you need makesure there is a numpy library in your enviroment.
